@@ -24,7 +24,9 @@ db.employee.insertMany([{"emp_name":"Suhas","emp_address":"Hubli","emp_email_id"
 
 db.employee.insertMany([{"emp_name":"Rajesh","emp_address":"Dharwad","emp_email_id":"Rajesh@gmail.com","emp_phone":85496545876,"emp_DOB":15-12-1998,"gender":"male","emp_department":"EEE"}])
 
-db.employee.insertMany([{"emp_name":"Rahul","emp_address":"Hubli","emp_email_id":"Rajesh@gmail.com","emp_phone":85496545876,"emp_DOB":15-12-1998,"gender":"male","emp_department":"EEE"}])
+db.employee.insertMany([{"emp_name":"Rahul","emp_address":"Hubli","emp_email_id":"Rahul@gmail.com","emp_phone":85496545876,"emp_DOB":15-12-1998,"gender":"male","emp_department":"EEE"}])
+
+db.employee.insertMany([{"emp_name":"Pintu","emp_address":"Dharwad","emp_email_id":"pintu@gmail.com","emp_phone":99496545876,"emp_DOB":15-10-1999,"gender":"male","emp_department":"Civil"}])
 
 //queries
 
