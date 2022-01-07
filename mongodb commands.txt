@@ -3,11 +3,28 @@
 use college1
 
 db.employee.insertMany([{"emp_name":"sameer","emp_address":"bijapur","emp_email_id":"sameer@gmail.com","emp_phone":9876545873,"emp_DOB":15-7-1999,"gender":"male","emp_department":"mca"}])   
+
 db.employee.insertOne({"emp_name":"vishal","emp_address":"hubli","emp_email_id":"vishal@yahoo.com","emp_phone":9876748434,"emp_DOB":21-2-2000,"gender":"male","emp_department":"cs"}) 
+
 db.employee.insertMany([{"emp_name":"pavan","emp_address":"hubli","emp_email_id":"pavan@yahoo.com","emp_phone":9076545873,"emp_DOB":ISODate("1999-10-08"),"gender":"male","emp_department":"Mech"}])
+
 db.employee.insertMany([{"emp_name":"blesson","emp_address":"bangalore","emp_email_id":"blesson@gmail.com","emp_phone":9876545873,"emp_DOB":ISODate("1999-10-07"),"gender":"male","emp_department":"civil"}])
+
 db.employee.insertMany([{"emp_name":"mary","emp_address":"dharwad","emp_email_id":"mary@gmail.com","emp_phone":8076545873,"emp_DOB":ISODate("1999-11-08"),"gender":"female","emp_department":"cs"}])
-db.employee.insertMany([{"emp_name":"Jhon","emp_address":"Chadchan","emp_email_id":"sameer@gmail.com","emp_phone":9876545876,"emp_DOB":16-07-1998,"gender":"male","emp_department":"cse"}])
+
+db.employee.insertMany([{"emp_name":"Jhon","emp_address":"Chadchan","emp_email_id":"jhon@gmail.com","emp_phone":9876545876,"emp_DOB":16-07-1998,"gender":"male","emp_department":"cse"}])
+
+db.employee.insertMany([{"emp_name":"Prem","emp_address":"Vijapur","emp_email_id":"prem@gmail.com","emp_phone":6776545876,"emp_DOB":10-10-1999,"gender":"male","emp_department":"ECE"}])
+
+db.employee.insertMany([{"emp_name":"Rajau","emp_address":"Yallapur","emp_email_id":"raju@gmail.com","emp_phone":7896545876,"emp_DOB":15-10-2000,"gender":"male","emp_department":"Bio-Tech"}])
+
+db.employee.insertMany([{"emp_name":"Pravin","emp_address":"Dharwad","emp_email_id":"pop.pravin@gmail.com","emp_phone":98096545876,"emp_DOB":15-10-1999,"gender":"male","emp_department":"ECE"}])
+
+db.employee.insertMany([{"emp_name":"Suhas","emp_address":"Hubli","emp_email_id":"pop.pravin@gmail.com","emp_phone":65496545876,"emp_DOB":15-12-1998,"gender":"male","emp_department":"EEE"}])
+
+db.employee.insertMany([{"emp_name":"Rajesh","emp_address":"Dharwad","emp_email_id":"Rajesh@gmail.com","emp_phone":85496545876,"emp_DOB":15-12-1998,"gender":"male","emp_department":"EEE"}])
+
+db.employee.insertMany([{"emp_name":"Rahul","emp_address":"Hubli","emp_email_id":"Rajesh@gmail.com","emp_phone":85496545876,"emp_DOB":15-12-1998,"gender":"male","emp_department":"EEE"}])
 
 //queries
 
